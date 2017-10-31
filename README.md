@@ -8,7 +8,7 @@ Librato Rake Deploytrack is a collection of raketasks. So you should be able to 
 
 Add this gem to your `Gemfile`
 ```ruby
-gem 'librato-rake-deploytrack'
+gem 'librato-rake-deploytrack', github: 'zeusintuivo/librato-rake-deploytrack'
 ```
 
 ### Installation (Rails 4.x)
@@ -63,7 +63,7 @@ after_deploy:
   - rake librato:deploy:end
 ```
 
-Using this gem in Travis CI deployment has a few pitfalls. First of all it requires your user and token in the environment. You can solve the non-that-secret user with a [global environment variable](http://docs.travis-ci.com/user/build-configuration/#Set-environment-variables) but to keep your token secret it's highly recommended to [encrypt it](http://docs.travis-ci.com/user/encryption-keys/)! Here is a example how a environment config could look like. 
+Using this gem in Travis CI deployment has a few pitfalls. First of all it requires your user and token in the environment. You can solve the non-that-secret user with a [global environment variable](http://docs.travis-ci.com/user/build-configuration/#Set-environment-variables) but to keep your token secret it's highly recommended to [encrypt it](http://docs.travis-ci.com/user/encryption-keys/)! Here is a example how a environment config could look like.
 
 ```yaml
 env:

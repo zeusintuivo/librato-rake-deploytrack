@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'librato-rake-deploytrack'
-  s.version     = '0.0.10'
+  s.version     = '0.0.11'
   s.date        = '2017-10-31'
   s.summary     = "Rake tasks to keep track of your deploys in Librato Metrics, using the Annotationstreams!"
   s.description = s.summary + " Librato Rake Deploytrack is a collection of raketasks. So you should be able to include them in every application utilizing rake."

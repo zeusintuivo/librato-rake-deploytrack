@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/Jimdo/librato-rake-deploytrack'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency "rake", "~> 10.1"
+  s.add_runtime_dependency "rake", ">= 10.5"
   s.add_runtime_dependency "librato-metrics", ">= 2.1.2"
   s.add_runtime_dependency "i18n", ">= 0.6.9"
   s.add_runtime_dependency "interception", ">= 0.3"

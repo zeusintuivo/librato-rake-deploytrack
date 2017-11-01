@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary     = "Rake tasks to keep track of your deploys in Librato Metrics, using the Annotationstreams!"
   s.description = s.summary + " Librato Rake Deploytrack is a collection of raketasks. So you should be able to include them in every application utilizing rake."
   s.authors     = ["Zeus Intuivo","Ole Michaelis"]
-  s.emails      = ["zeus@intuivo.com","Ole.Michaelis@googlemail.com"]
+  s.email       = 'Ole.Michaelis@googlemail.com'
   s.files       = Dir['lib/*.rb'] + Dir['lib/tasks/*.rake']
   s.homepage    = 'https://github.com/Jimdo/librato-rake-deploytrack'
   s.license     = 'MIT'

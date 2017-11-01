@@ -22,7 +22,7 @@ namespace :librato do
       id = File.read(file).to_i
       annotator = Librato::Metrics::Annotator.new
       annotator.update_event deployment_name, id, :end_time => Time.now.to_i
-      File.delete(file) 
+      File.delete(file)
     end
 
     task :list do
